@@ -28,4 +28,5 @@ dependencies {
     implementation('org.springframework.boot:spring-boot-starter')
     testImplementation('org.springframework.boot:spring-boot-starter-test')
     compileOnly('org.springframework:spring-context-indexer')
+    testCompileOnly('org.springframework:spring-context-indexer')
 }
